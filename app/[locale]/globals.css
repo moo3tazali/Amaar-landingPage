@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.intro-h {
+  min-height: calc(100vh - 133px);
+}
+
+.progress {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: red;
+  bottom: 100px;
+}
+
+.hero-section-bg {
+  height: calc(100vh - 157px) !important;
+  width: 100% !important;
+}
